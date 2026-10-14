@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/status" android:text="OFF"
+        android:textSize="24sp" android:gravity="center"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btnToggle" android:text="Turn ON"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/blinkRate" android:hint="Blink speed ms"
+        android:text="500" android:inputType="number"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    <Button android:id="@+id/btnBlink" android:text="Start Blink"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/timerSec" android:hint="Auto-off seconds"
+        android:text="30" android:inputType="number"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    <Button android:id="@+id/btnTimer" android:text="Start Timer"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnSOS" android:text="SOS Pattern"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
